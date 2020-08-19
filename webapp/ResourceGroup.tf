@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "example" {
-        name = "rg-terraform-mch"
-        location = "westeurope"
+resource "azurerm_resource_group" "rg" {
+        name = var.rg_name
+        location = var.location
 }
